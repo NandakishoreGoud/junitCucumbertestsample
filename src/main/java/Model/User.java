@@ -31,11 +31,13 @@ public class User {
         this.marks = marks;
     }
 
-    public boolean getResult() {
-        if (this.marks < 80) {
-            return true;
-        } else return false;
+    public int getResult() {
+        if (this.marks < 60) {
+            return marks;}
+            else return 0;
+
     }
+
 
 }
 
